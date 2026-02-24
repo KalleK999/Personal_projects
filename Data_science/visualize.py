@@ -53,7 +53,7 @@ def main():
     ax.plot(americas_data["year"], americas_data["avg"], label="Americas")
 
     ax.set_xlabel("Year")
-    ax.set_ylabel("Average Cost of Healthy Diet (USD)")
+    ax.set_ylabel("Average Cost of Healthy Diet (USD PPP)")
     ax.set_title("Average Cost of Healthy Diet by region")
     ax.legend()
     plt.show()
